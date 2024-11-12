@@ -94,6 +94,7 @@ img {
   padding-inline: 25px;
   top: -50px;
   left: 0;
+  width: 100%;
   height: 100vh;
 }
 
@@ -104,6 +105,7 @@ img {
   width: 25px;
   height: 20px;
   background-position: center;
+  z-index: 3;
 }
 
 .show-menu .site-header__open-menu {
@@ -112,12 +114,7 @@ img {
 
 
 .navbar {
-  /* width: 243px;
-  border: 1px solid #000;
-  padding-block: 40px;
-  border-radius: 4px;
-  background: #FFF;
-  box-shadow: 0px 10px 20px 0px rgba(80, 86, 98, 0.03); */
+  width: 100%;
 }
 
 .navbar__list {
@@ -125,7 +122,7 @@ img {
   flex-direction: column;
   row-gap: 24px;
   text-align: center;
-  width: 230px;
+  width: 100%;
   margin-inline: auto;
   border: 1px solid #000;
   padding-block: 40px;
