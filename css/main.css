@@ -1,0 +1,152 @@
+@font-face {
+  font-family: "Be Vietnam Pro";
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+  src: url("/fonts/BeVietnam/bevietnamprolight.woff2") format("woff2"),
+  url("/fonts/BeVietnam/bevietnamprolight.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Be Vietnam Pro";
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+  src: url("/fonts/BeVietnam/bevietnamproregular.woff2") format("woff2"),
+  url("/fonts/BeVietnam/bevietnamproregular.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Be Vietnam Pro";
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+  src: url("/fonts/BeVietnam/bevietnamprobold.woff2") format("woff2"),
+  url("/fonts/BeVietnam/bevietnamprobold.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Be Vietnam Pro";
+  font-weight: 800;
+  font-display: swap;
+  src: url("/fonts/BeVietnam/bevietnamproextrabold.woff2") format("woff2"),
+  url("/fonts/BeVietnam/bevietnamproextrabold.woff") format("woff");
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Be Vietnam", "Arial", sans-serif;
+}
+
+img {
+  display: block;
+}
+
+.container {
+  max-width: 1240px;
+  margin-inline: auto;
+  width: 100%;
+  padding-inline: 20px;
+}
+
+.list-unstyled {
+  list-style-type: none;
+  margin-block: 0;
+  padding-left: 0;
+}
+
+/* site header styles begin  */
+
+.site-header {
+  position: relative;
+  padding-top: 20px;
+}
+
+.site-header__inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.site-header__img {
+  width: 109px;
+  height: 18px;
+}
+
+.hamburg-btn {
+  background-image: url("/images/hamburgericon.svg");
+  width: 25px;
+  height: 18px;
+  border: transparent;
+  background-color: transparent;
+}
+
+.site-header__open-menu {
+  display: none;
+  position: absolute;
+  align-items: center;  
+  padding-inline: 25px;
+  top: -50px;
+  left: 0;
+  height: 100vh;
+}
+
+.show-menu .hamburg-btn {
+  background-image: url("/images/closeicon.svg");
+  background-position: 0 0;
+  background-repeat: no-repeat;
+  width: 25px;
+  height: 20px;
+  background-position: center;
+}
+
+.show-menu .site-header__open-menu {
+  display: flex;
+}
+
+
+.navbar {
+  /* width: 243px;
+  border: 1px solid #000;
+  padding-block: 40px;
+  border-radius: 4px;
+  background: #FFF;
+  box-shadow: 0px 10px 20px 0px rgba(80, 86, 98, 0.03); */
+}
+
+.navbar__list {
+  display: flex;
+  flex-direction: column;
+  row-gap: 24px;
+  text-align: center;
+  width: 230px;
+  margin-inline: auto;
+  border: 1px solid #000;
+  padding-block: 40px;
+  border-radius: 4px;
+  background: #FFF;
+  box-shadow: 0px 10px 20px 0px rgba(80, 86, 98, 0.03);
+}
+
+.navbar__item {
+  
+}
+
+.navbar__link {
+  text-decoration-line: none;
+  color: #242D52;
+  text-align: center;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: -0.286px;
+}
+
+/* site header styles finish */
